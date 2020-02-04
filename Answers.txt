@@ -1,0 +1,5 @@
+*Database:*
+
+Postgres db endpoint - fincrimedb1.cyiakjau7pt6.us-west-2.rds.amazonaws.com 5432 (PWD in a separate file)
+
+*ETL* 
