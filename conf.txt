@@ -1,0 +1,8 @@
+db user: postgres 
+db pwd: 4fcc9b2c-955f-45fc-93ce-64e3bf36beb8
+
+postgres://postgres:4fcc9b2c-955f-45fc-93ce-64e3bf36beb8@fincrimedb1.cyiakjau7pt6.us-west-2.rds.amazonaws.com:5432/fincrimedb
+
+plsql --host fincrimedb.cyiakjau7pt6.us-west-2.rds.amazonaws.com --port 5432 --username postgres --dbname fincrimedb
+
+telnet fincrimedb.cyiakjau7pt6.us-west-2.rds.amazonaws.com 5432
