@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+revolut.egg-info/PKG-INFO
+revolut.egg-info/SOURCES.txt
+revolut.egg-info/dependency_links.txt
+revolut.egg-info/requires.txt
+revolut.egg-info/top_level.txt

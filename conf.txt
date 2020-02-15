@@ -1,8 +1,26 @@
+#Connection
+
 db user: postgres 
 db pwd: 4fcc9b2c-955f-45fc-93ce-64e3bf36beb8
-
 postgres://postgres:4fcc9b2c-955f-45fc-93ce-64e3bf36beb8@fincrimedb1.cyiakjau7pt6.us-west-2.rds.amazonaws.com:5432/fincrimedb
-
-plsql --host fincrimedb.cyiakjau7pt6.us-west-2.rds.amazonaws.com --port 5432 --username postgres --dbname fincrimedb
-
 telnet fincrimedb.cyiakjau7pt6.us-west-2.rds.amazonaws.com 5432
+
+#Create Tables
+
+    #transactions
+
+    create table transactions (
+        currency varchar(3) not null,
+        amount bigint not null,
+        state varchar(25) not null,
+        created_date timestamp without time zone not null,
+        merchant_category varchar(100),
+        merchant_country varchar(3),
+        entry_method varchar(4) not null,
+        user_id uuid not null,
+        type varchar(20) not null,
+        source varchar(20) not null,
+        id uuid primary key
+    )
+
+
